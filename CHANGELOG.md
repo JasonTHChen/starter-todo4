@@ -6,8 +6,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [0.0.1] - 2018-02-14
 ### Added
-  - Add CHANGLOG.md
-  - Add Tasks model
+  - CHANGLOG.md
+  - Tasks model
 
 ### Changed
-  - Modified autoload to load task model
+  - autoload.php for task model
+
+## [0.0.3] - 2018-02-14
+### Added
+  - template_secondary for split screen template

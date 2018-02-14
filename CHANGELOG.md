@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [0.0.3] - 2018-02-14
 ### Added
   - template_secondary for split screen template
+  - task list order by category page
+  - task list order by priority page
+  - getCategorizedTasks in task model
+
+### Changed
+  - Organize coding sytle
 
 ## [0.0.2] - 2018-02-14
 ### Added

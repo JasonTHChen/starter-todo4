@@ -21,3 +21,6 @@ application/logs/*
 
 # PHP Storm IDE
 .idea/
+
+# session files
+tmp/

@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Changed
   - Added CRUD for Mtce controller
+  - fixed App model
 
 ## [0.1.5] - 2018-02-28
 ### Added

@@ -4,6 +4,7 @@
 */cache/*
 !*/cache/index.html
 !*/cache/.htaccess
+/tmp
 
 user_guide_src/build/*
 user_guide_src/cilexer/build/*
@@ -20,3 +21,6 @@ application/logs/*
 
 # PHP Storm IDE
 .idea/
+
+# session files
+tmp/

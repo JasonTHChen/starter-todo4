@@ -20,7 +20,7 @@ class Task extends Entity {
         }
 
         if (strlen($value) > 64) {
-            throw new Exception('String is too long');
+            throw new Exception('task name is too long');
         }
 
         $this->task = $value;
@@ -68,7 +68,7 @@ class Task extends Entity {
         }
 
         if ($value < 1 || $value > 5) {
-            throw new Exception('Must be between 1 to 4');
+            throw new Exception('Must be between 1 to 5');
         }
 
         $this->group = $value;

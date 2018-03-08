@@ -17,15 +17,15 @@ class TaskTest extends TestCase
     }
 
     public function testSetTask(){
-        $this->task->setTask("Finish Lab 7");
-        $this->assertEquals("Finish Lab 7", $this->task->getTask());
+        $this->task->setTask("Todo project");
+        $this->assertEquals("Todo project", $this->task->getTask());
     }
 
     public function testSetPriority(){
         $this->task->setPriority(2);
         $this->assertEquals(2, $this->task->getPriority());
         $this->expectException(Exception::class);
-        $this->task->setPriority("a string which is false");
+        $this->task->setPriority("testSetPriority");
         
     }
 
@@ -33,13 +33,13 @@ class TaskTest extends TestCase
         $this->task->setSize(3);
         $this->assertEquals(3, $this->task->getSize());
         $this->expectException(Exception::class);
-        $this->task->setSize(500);
+        $this->task->setSize(321);
     }
 
     public function testSetGroup() {
         $this->task->setGroup(2);
         $this->assertEquals(2, $this->task->getGroup());
         $this->expectException(Exception::class);
-        $this->task->setGroup(0);
+        $this->task->setGroup(-1);
     }
 }

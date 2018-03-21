@@ -11,6 +11,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
   - Reads data and displays from xml file
   - Create xml data
 
+### Changed
+  - override store and load method
+
 ##[1.0.0] 2018-03-07
 ### Added
   - phpunit tests for tasks and task model

@@ -8,7 +8,7 @@ class Task extends Entity {
     /**
      * Evaluates and sets the Task property
      */
-    private $task;
+    private $name;
     private $priority;
     private $size;
     private $group;
@@ -23,7 +23,7 @@ class Task extends Entity {
             throw new Exception('task name is too long');
         }
 
-        $this->task = $value;
+        $this->name = $value;
     }
 
     /**
@@ -75,7 +75,7 @@ class Task extends Entity {
     }
 
     public function getTask() {
-        return $this->task;
+        return $this->name;
     }
 
     public function getPriority() {
